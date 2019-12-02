@@ -1,0 +1,1 @@
+./Debug/SquareMatrix.cpp.o ./Debug/IntElement_tests.cpp.o ./Debug/IntElement.cpp.o ./Debug/SquareMatrix_tests.cpp.o

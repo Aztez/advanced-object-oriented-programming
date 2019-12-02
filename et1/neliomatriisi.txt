@@ -1,0 +1,18 @@
+Neliömatriisi on sellainen matriisi, jossa on yhtä monta vaaka- ja pystyriviä. Sen alkioiden lukumäärä on siis sama molemmilla riveillä.
+
+Neliömatriisien yhteen- ja vähennyslaskennassa matrsiisien vastinalkiot lasketaan yhteen/vähennetään.
+Esim. Yhteenlasku:
+
+	5 5		1 2		6 7
+	6 5	+	2 3	=	8 8
+
+Vähennyslaskussa toimitaan samoin.
+
+	5 5		1 2		4 3
+	6 5	-	2 3	=	4 2
+
+Kertolaskun avulla saadaan uusi matriisi laskemalla vasemmalla olevan matriisin vaakavektoreiden ja oikean puolen matriisin pystyvektoreiden pistetulot.
+Esim
+
+	5 5		1 2		5 x 1 + 5 x 2	5 x 2 + 5 x 3		15 25
+	6 5	x	2 3	=	6 x 1 + 5 x 2	6 x 2 + 5 x 3	 =	16 27
